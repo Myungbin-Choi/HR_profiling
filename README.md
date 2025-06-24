@@ -11,7 +11,7 @@
 수행 역할
 - SQL을 통한 전처리 및 데이터 조회
 - pandas, matplotlib, seaborn을 활용한 데이터 분석 및 시각화
-- Tableau 활용 대시보드 제작
+- Tableau 활용 대시보드 제작 (https://public.tableau.com/views/HR_17484053894510/3?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 주요 결과
 1) 직원 개인의 단일 역량 지표와 생산성 간의 상관관계 관찰되지 않아, 직원의 개별 역량보다는 환경적/조직적 요인이나 팀 구성의 맥락이 성과에 더 큰 영향을 줄 수 있다
