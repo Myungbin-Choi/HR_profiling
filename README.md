@@ -35,20 +35,20 @@
 - 목적 : 생산성과 관계 있는 요인을 파악하여 프로파일링 기준 설정 근거 마련
 - 분석 방법 : 상관관계분석, PCA분석, 랜덤포레스트 회귀분석, Kmeans Clustering
 - 분석 결과 : 단일 역량 지표와 생산성 간의 상관관계 관찰되지 않음
-![efficacy_correlation]
+![efficacy_correlation](https://github.com/Myungbin-Choi/HR_profiling/blob/main/efficacy_correlation.png)
 
 
 #### 2. 성과 그룹별 특성 확인 및 차이 검정
 - 목적 : 고성과자와 일반 직원 간 개인/관리자 특성 차이 확인을 통해 성과에 유의미한 요인 탐색
 - 분석 방법 : 평균 확인, ANOVA 검정, Tukey HSD 사후검정 수행
 - 분석 결과 : 일부 개인 특성(나이, 개방성), 관리자의 일부 특성(직원 간 나이차, 선량함)에서 성과그룹 간 유의미한 차이 존재
-![group_differences]
+![group_differences](https://github.com/Myungbin-Choi/HR_profiling/blob/main/group_differences.png)
 
 
 #### 3. 고성과자 프로파일링을 통한 공통 패턴 확인
 - 목적 : 고성과자 성과 하락의 시간적 맥락과 이벤트 트리거 확인
 - 분석 결과 : 특정 이벤트('팀워크', '희생') 전후 공통된 성과 변화 패턴 확인 및 이벤트 빈도에 따른 성과 변화 양상 차이 존재
-![high_performers]
+![high_performers](https://github.com/Myungbin-Choi/HR_profiling/blob/main/high_performers.png)
   
 
 ### 대시보드
