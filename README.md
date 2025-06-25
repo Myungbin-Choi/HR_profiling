@@ -34,7 +34,7 @@
 - 목적 : 생산성과 관계 있는 요인을 파악하여 프로파일링 기준 설정 근거 마련
 - 분석 방법 : 상관관계분석, PCA분석, 랜덤포레스트 회귀분석, Kmeans Clustering
 - 분석 결과 : 단일 역량 지표와 생산성 간의 상관관계 관찰되지 않음
-![efficacy_correlation](https://github.com/Myungbin-Choi/HR_profiling/blob/main/efficacy_correlation.png)
+![efficacy_correlation](https://github.com/Myungbin-Choi/HR_profiling/blob/main/images/efficacy_correlation.png)
 
 
 #### 2. 성과 그룹별 특성 확인 및 차이 검정
