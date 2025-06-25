@@ -72,17 +72,16 @@
 
 ## directory structure
 ```bash
-├── README.md                     - 프로젝트 요약 설명
-├── recruitment_funnel.ipynb      <- 분석 통합 파일 (preview 용)
-├── recruitment_funnel.py         <- 분석 통합 파일 (code 공유용)
-├── 채용플랫폼_요약포트폴리오.pdf        <- 프로젝트 2page 요약 파일
-├── 채용플랫폼_포트폴리오.pdf           <- 프로젝트 보고서 요약 파일
+├── README.md                     <- 프로젝트 요약 설명
+├── profiling_HR.ipynb            <- 분석 통합 파일 (preview 용)
+├── profiling_HR.py               <- 분석 통합 파일 (code 공유용)
+├── 고성과자프로파일링_요약포트폴리오.pdf  <- 프로젝트 2page 요약 파일
+├── 고성과자프로파일링_포트폴리오.pdf     <- 프로젝트 보고서 요약 파일
+├── Dashboard                     <- 고성과자 프로파일링 대시보드 이미지
 ├── images                        <- 주요 이미지 파일
-│   ├── abtest.png       
-│   ├── funnel.png      
-│   ├── funnel_anlalytics.png   
-│   └── persona.png            
-│   └── process.png           
-│   └── user_journey.png        
-│   └── user_journey_differences.png           
+│   ├── Dashboard.png       
+│   ├── efficacy_correlation.png      
+│   ├── group_differences.png   
+│   └── high_performers.png            
+│   └── process.png                   
 ```
