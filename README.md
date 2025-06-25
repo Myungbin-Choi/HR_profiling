@@ -25,29 +25,30 @@
 ![process](https://github.com/Myungbin-Choi/HR_profiling/blob/main/process.png)
 
 
-## 주요 결과
+## 주요 발견
 1) 직원 개인의 단일 역량 지표와 생산성 간의 상관관계 관찰되지 않아, 직원의 개별 역량보다는 환경적/조직적 요인이나 팀 구성의 맥락이 성과에 더 큰 영향을 줄 수 있다
 2) 직원-관리자 간의 나이 차이는 성과에 유의미한 영향을 미친다
 3) 고성과자 그룹의 경우, '팀워크' 활동 이후 생산성이 감소되는 경향을 보이며, '희생' 활동 이후 개인의 생산성이 높아지는 경향을 보인다
 4) '팀워크', '희생' 이벤트 전후 생산성의 변화가 보이며 이벤트 빈도에 따른 성과 변화 양상 차이 존재하기 때문에 해당 이벤트 전후 피드백 및 보상 체계 수립이 필요하다
 
-#### 1. 퍼널 단계별 이탈률
-![funnel](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel.png)
-- **__2단계 개인 이력서 작성 단계의 경우, 이탈률은 낮으나 후속 단계 전환에 지속적인 영향을 미칠 수 있다고 판단하여 해당 단계에 대한 현황 분석 진행__**
+#### 1. 전체 지표 간 관계 분석
+- 목적 : 생산성과 관계 있는 요인을 파악하여 프로파일링 기준 설정 근거 마련
+- 분석 방법 : 상관관계분석, PCA분석, 랜덤포레스트 회귀분석, Kmeans Clustering
+- 분석 결과 : 단일 역량 지표와 생산성 간의 상관관계 관찰되지 않음
+![efficacy_correlation]
 
 
-#### 2. 주요 이탈구간 현황 파악
-![funnel_analytics](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/funnel_analytics.png)
-- 단계별 체류시간이 짧을수록 다음 단계로의 전환이 낮다
-- 개인 이력서에 대한 확인 및 수정이 잦은 유저의 이탈률이 낮다
-- 관련 공고 불러오기 클릭이 잦을수록 다음 단계로의 전환이 높다 등 가설 검증
+#### 2. 성과 그룹별 특성 확인 및 차이 검정
+- 목적 : 고성과자와 일반 직원 간 개인/관리자 특성 차이 확인을 통해 성과에 유의미한 요인 탐색
+- 분석 방법 : 평균 확인, ANOVA 검정, Tukey HSD 사후검정 수행
+- 분석 결과 : 일부 개인 특성(나이, 개방성), 관리자의 일부 특성(직원 간 나이차, 선량함)에서 성과그룹 간 유의미한 차이 존재
+![group_differences]
 
 
-#### 3. 유저 여정 분석
-![user_journey](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/user_journey.png)
-![user_journey_differences](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/user_journey_differences.png)
-- 이력서를 간단히 작성한 유저일수록 탐색 단계에서 빠르게 이탈하는 경향이 있다
-- 즉, 플랫폼 내 이력서 작성 경험이 지원서 작성으로 이어지도록 충분히 동기부여되지 못했다
+#### 3. 고성과자 프로파일링을 통한 공통 패턴 확인
+- 목적 : 고성과자 성과 하락의 시간적 맥락과 이벤트 트리거 확인
+- 분석 결과 : 특정 이벤트('팀워크', '희생') 전후 공통된 성과 변화 패턴 확인 및 이벤트 빈도에 따른 성과 변화 양상 차이 존재
+![high_performers]
   
 
 ### 대시보드
