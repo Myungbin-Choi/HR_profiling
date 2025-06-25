@@ -22,8 +22,7 @@
 ---
 
 ### 진행 프로세스 
-![process](https://github.com/Myungbin-Choi/HR_profiling/blob/main/process.png)
-
+![process](https://github.com/Myungbin-Choi/HR_profiling/blob/main/images/process.png)
 
 ## 주요 발견
 1) 직원 개인의 단일 역량 지표와 생산성 간의 상관관계 관찰되지 않아, 직원의 개별 역량보다는 환경적/조직적 요인이나 팀 구성의 맥락이 성과에 더 큰 영향을 줄 수 있다
@@ -42,13 +41,13 @@
 - 목적 : 고성과자와 일반 직원 간 개인/관리자 특성 차이 확인을 통해 성과에 유의미한 요인 탐색
 - 분석 방법 : 평균 확인, ANOVA 검정, Tukey HSD 사후검정 수행
 - 분석 결과 : 일부 개인 특성(나이, 개방성), 관리자의 일부 특성(직원 간 나이차, 선량함)에서 성과그룹 간 유의미한 차이 존재
-![group_differences](https://github.com/Myungbin-Choi/HR_profiling/blob/main/group_differences.png)
+![group_differences](https://github.com/Myungbin-Choi/HR_profiling/blob/main/images/group_differences.png)
 
 
 #### 3. 고성과자 프로파일링을 통한 공통 패턴 확인
 - 목적 : 고성과자 성과 하락의 시간적 맥락과 이벤트 트리거 확인
 - 분석 결과 : 특정 이벤트('팀워크', '희생') 전후 공통된 성과 변화 패턴 확인 및 이벤트 빈도에 따른 성과 변화 양상 차이 존재
-![high_performers](https://github.com/Myungbin-Choi/HR_profiling/blob/main/high_performers.png)
+![high_performers](https://github.com/Myungbin-Choi/HR_profiling/blob/main/images/high_performers.png)
   
 
 ### 대시보드
