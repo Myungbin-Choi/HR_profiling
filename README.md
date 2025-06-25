@@ -18,11 +18,11 @@
 - SQL을 통한 전처리 및 데이터 조회
 - pandas, matplotlib, seaborn을 활용한 데이터 분석 및 시각화
 - Tableau 활용 대시보드 제작 (https://public.tableau.com/views/HR_17484053894510/3?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-![dashboard]
+![dashboard](https://github.com/Myungbin-Choi/HR_profiling/blob/main/Dashboard.png)
 ---
 
 ### 진행 프로세스 
-![process]
+![process](https://github.com/Myungbin-Choi/HR_profiling/blob/main/process.png)
 
 
 ## 주요 결과
@@ -52,7 +52,7 @@
 
 ### 대시보드
 고성과자들의 성과 추이와 특성을 파악하고, 성과 하락에 주의가 필요한 인물을 식별하기 위해 설계함
-![dashboard]
+![dashboard](https://github.com/Myungbin-Choi/HR_profiling/blob/main/Dashboard.png)
 - 주요 구성
   - 성과 등급별 최근 생산성 추이
   - 팀별 생산성 편차 그래프
